@@ -16,15 +16,29 @@
 // xhr.send();
 
 
+
+let time = document.getElementById("time");
+let d = new Date();
+time.innerHTML = d;
+
+
+
+
 let subject1 = ["html", "practice", "css", "javascript", "mathematics", "play game", "jquery", "watch movies", "no class"];
 let lent = subject1.length;
 let subject2;
 let subject3;
-let number = "0";
 let button = document.getElementsByTagName("button");
+let number = "0";
 
-let ri = Math.floor(Math.random() * lent);
-console.log(subject1[ri]);
+
+function show(){
+    this.button
+    let ri = Math.floor(Math.random() * lent);
+    let result = subject1[ri]
+    document.getElementById("write").innerHTML = result;
+    
+}
 
 
 
