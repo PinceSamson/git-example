@@ -6,6 +6,7 @@
 //             console.log(xhr.responseText);
             
 //         }
+
 //         if(xhr.status == 404){
 //             console.log("file not found");
             
@@ -57,7 +58,6 @@ time1.innerHTML = timeout;
 
 setTimeout(showtime, 1000);
 }showtime();
-// setInterval(showtime, 1000);
 
 
 
@@ -67,13 +67,11 @@ let lent = subject1.length;
 let subject2;
 let subject3;
 let button = document.getElementsByClassName("show");
-// console.log(button);
 
 let number = "0";
 
 
 function show(){
-    // let show = this.button= "<p>"+ "ok" +"</p>";
  
     let ri = Math.floor(Math.random() * lent);
 
